@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestArrayList", "TestArrayL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestListT", "TestListT\TestListT.csproj", "{368F7E76-6781-4C54-BF3D-A18D220BE581}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppEntityFramework", "ConsoleAppEntityFramework\ConsoleAppEntityFramework.csproj", "{9FF7E3E1-30E3-4414-9AD9-F05548B122DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{368F7E76-6781-4C54-BF3D-A18D220BE581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{368F7E76-6781-4C54-BF3D-A18D220BE581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{368F7E76-6781-4C54-BF3D-A18D220BE581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF7E3E1-30E3-4414-9AD9-F05548B122DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF7E3E1-30E3-4414-9AD9-F05548B122DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF7E3E1-30E3-4414-9AD9-F05548B122DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF7E3E1-30E3-4414-9AD9-F05548B122DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
