@@ -66,8 +66,8 @@ namespace ConsoleAppEntityFramework
 
             ObjectContext objectcontext = ((IObjectContextAdapter) context).ObjectContext;
             //DbContext dbContext = (DbContext)context;
-
-            string sql = ((ObjectQuery)(objectcontext.CreateObjectSet<Info>()).Where(t => t.ID > 0)).ToTraceString();
+            int[] ids = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            string sql = ((ObjectQuery)(objectcontext.CreateObjectSet<Info>()).Where(t => ids.Contains(t.ID))).ToTraceString();
             Console.WriteLine(sql);
             Console.ReadKey();
         }
